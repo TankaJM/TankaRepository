@@ -1,0 +1,27 @@
+p.typeA{
+	color: blue;
+	outline-color: blue;
+	outline-style: dotted;
+}
+p.typeB{
+	color: red;
+	outline-color: red;
+	outline-style: groove;
+}
+
+p#ident1{
+	color: orange; 
+	background-color: lightgrey;
+	width: 300px;
+	border: 15px solid orange;
+	padding: 50px;
+	margin: 20px;
+}
+p#ident2{
+	color: green;
+	background-color: lightgrey;
+	width: 300px;
+	border: 15px solid green;
+	padding: 50px;
+	margin: 20px;
+}
