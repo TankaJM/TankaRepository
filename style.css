@@ -1,27 +1,67 @@
-p.typeA{
-	color: blue;
-	outline-color: blue;
-	outline-style: dotted;
-}
-p.typeB{
-	color: red;
-	outline-color: red;
-	outline-style: groove;
+/* styles.css */
+
+/* Mise en page générale */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://example.com/csgo-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
 }
 
-p#ident1{
-	color: orange; 
-	background-color: lightgrey;
-	width: 300px;
-	border: 15px solid orange;
-	padding: 50px;
-	margin: 20px;
+header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-bottom: 30px;
 }
-p#ident2{
-	color: green;
-	background-color: lightgrey;
-	width: 300px;
-	border: 15px solid green;
-	padding: 50px;
-	margin: 20px;
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #f1c40f;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Section de contenu */
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.game-info {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+button {
+    background-color: #e67e22;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #ccc;
 }
